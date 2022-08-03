@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Meta Tags-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--Bootstrap Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Kodego Bootcamp</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark py-3 navbar-dark fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Kodego Bootcamp</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navmenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll learn </a>
+            </li>
+            <li class="nav-item">
+              <a href="#question" class="nav-link">Question </a>
+            </li>
+            <li class="nav-item">
+              <a href="#instruction" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </body>
+
+  <!--Bootsrtrap JS-->
+  <script src="js/bootstrap.bundle.min.js"></script>
 </html>
